@@ -1,0 +1,30 @@
+{
+  "name": "backend-ecommerce",
+  "version": "1.0.0",
+  "description": "Backend de la asignación de ecommerce.",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "cliente": "npm run start --prefix ./cliente",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run cliente\""
+  },
+  "repository": "git+https://github.com/ddeniaa/Asignacion1-Denia.git",
+  "author": "Denia Dominguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddeniaa/Asignacion1-Denia/issues"
+  },
+  "homepage": "https://github.com/ddeniaa/Asignacion1-Denia#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^8.6.5",
+    "firebase-admin": "^9.9.0",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
