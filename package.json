@@ -4,8 +4,7 @@
   "description": "Backend de la asignación de ecommerce.",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js",
-    "cliente": "npm run start --prefix ./cliente"
+    "server": "nodemon index.js"
     
   },
   "repository": "git+https://github.com/ddeniaa/Asignacion1-Denia.git",
