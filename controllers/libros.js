@@ -202,7 +202,7 @@ exports.getLibroCalificacionAsc = async (req, res) => {
     try {
 
         const query = db.collection('books');
-        const querySnap = await query.where('calificacion', '<=' ,3).get();
+        const querySnap = await query.where('calificacion', '<=', 3).get();
         const docs = querySnap.docs
 
 
@@ -252,7 +252,7 @@ exports.getLibroCalificacionDesc = async (req, res) => {
     try {
 
         const query = db.collection('books');
-        const querySnap = await query.where('calificacion', '>=' ,4).get();
+        const querySnap = await query.where('calificacion', '>=', 4).get();
         const docs = querySnap.docs
 
 
@@ -307,7 +307,7 @@ exports.getLibroPalabraClave = async (req, res) => {
         const palabraclave = req.params.palabrasClaves
         //console.log(palabraclave)
         const query = db.collection('books');
-        const querySnap = await query.where( 'palabrasClaves', 'array-contains', palabraclave ).get();
+        const querySnap = await query.where('palabrasClaves', 'array-contains', palabraclave).get();
         const docs = querySnap.docs
 
         //console.log(docs)
@@ -338,16 +338,16 @@ exports.getLibroPalabraClave = async (req, res) => {
             mensaje: 'Se encontraron los datos',
             data: data
         })
-        
+
     } catch (error) {
         console.log(error);
         return res.status(500).json({
             exitoso: false,
             mensaje: 'Error en el Servidor'
         })
-        
+
     }
-}
+} 
 
 // exports.hola = async (req, res) => {
 //     console.log("Connected to React");
@@ -355,6 +355,8 @@ exports.getLibroPalabraClave = async (req, res) => {
 //         msg: 'conectado '
 //     });
 //   }
+
+
 
 
 

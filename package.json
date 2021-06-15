@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon index.js",
-    "cliente": "npm run start --prefix ./cliente",
-    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run cliente\""
+    "cliente": "npm run start --prefix ./cliente"
+    
   },
   "repository": "git+https://github.com/ddeniaa/Asignacion1-Denia.git",
   "author": "Denia Dominguez",

@@ -9,13 +9,13 @@ const db = require('./config/conexionFirebase')
 //require Rutas:
 const libros = require('./routes/libros');
 const carrusel = require('./routes/carrusel');
-const login = require('./routes/auth');
+
 
 
 //Rutas:
 app.use('/api/libros', libros);
 app.use('/api/carrusel', carrusel);
-app.use('/api', login);
+
 
 
 
