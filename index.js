@@ -20,7 +20,7 @@ app.use('/api/carrusel', carrusel);
 
 
 //Middleware de Express:
-app.use(express.static('cliente')); // cliente hace referencia a la carpeta cliente del Fron.
+app.use(express.static('public')); // cliente hace referencia a la carpeta cliente del Fron.
 
 //lectura y parseo del body:
 app.use(express.json());
