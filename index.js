@@ -2,7 +2,7 @@
 
 const express = require('express')//importa el modulo de express, recien instalado.
 const bodyParser= require('body-parser')//importa el modulo para poder acceder a los parametro que se envian via POST.
-const cors = require('cors');
+const cors = require('cors') ({ origin: true });
 const app= express(); //guardo en la variable app, express.
 const db = require('./config/conexionFirebase')
 
