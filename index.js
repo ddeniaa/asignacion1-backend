@@ -5,6 +5,7 @@ const bodyParser= require('body-parser')//importa el modulo para poder acceder a
 const cors = require('cors');
 const app= express(); //guardo en la variable app, express.
 const db = require('./config/conexionFirebase')
+require('dotenv').config();
 
 //require Rutas:
 const libros = require('./routes/libros');
