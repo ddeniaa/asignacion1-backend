@@ -7,7 +7,7 @@ const {
     getLibroPalabraClave,
     getLibroCategoria,
     getLibroCalificacionAsc,
-    getLibroCalificacionDesc,
+    getLibroCalificacionDesc
    
 }
     = require('../controllers/libros');
@@ -22,6 +22,7 @@ router.route('/libros/categoria/:categoria').get(getLibroCategoria);
 router.route('/librosasc/calificaciones').get(getLibroCalificacionAsc);
 router.route('/librosdesc/calificaciones').get(getLibroCalificacionDesc);
 router.route('/libros/palabrasClaves/:palabrasClaves').get(getLibroPalabraClave);
+
 
 
 // router.route('/libro/hola').get(hola);

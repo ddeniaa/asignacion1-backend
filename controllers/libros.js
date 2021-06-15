@@ -347,7 +347,7 @@ exports.getLibroPalabraClave = async (req, res) => {
         })
 
     }
-} 
+}
 
 // exports.hola = async (req, res) => {
 //     console.log("Connected to React");
@@ -355,6 +355,8 @@ exports.getLibroPalabraClave = async (req, res) => {
 //         msg: 'conectado '
 //     });
 //   }
+
+
 
 
 
