@@ -112,7 +112,7 @@ ul{
   padding: 8px!important;
   margin-top: 0% !important;
   width: 200px;
-  height: 200px;
+  height: 150px;
  }
 
 
@@ -406,6 +406,7 @@ main{
 .unlibro{
   color: #7B113A;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
 }
 
 
