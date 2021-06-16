@@ -227,7 +227,8 @@ ul{
       background-color: white;
   }
 
-  .google-icon {
+  .fa-google {
+      color: orange;
       position: absolute;
       margin-top: 11px;
       margin-left: 11px;
@@ -270,7 +271,8 @@ ul{
       background-color: white;
   }
 
-  .facebook-icon {
+  .fa-facebook-square {
+      color: rgb(45, 45, 131);
       position: absolute;
       margin-top: 11px;
       margin-left: 11px;
@@ -399,6 +401,11 @@ main{
 
 .fa-comments{
  margin-left: 50px;
+}
+
+.unlibro{
+  color: #7B113A;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
