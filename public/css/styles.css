@@ -233,6 +233,7 @@ ul{
   }
 
   .fa-google {
+      background-color: white;
       color: orange;
       position: absolute;
       margin-top: 11px;
@@ -250,6 +251,22 @@ ul{
 
 
   /*Facebook*/
+  .fa-facebook-square {
+      color: rgb(45, 45, 131);
+      position: absolute;
+      margin-top: 11px;
+      margin-left: 11px;
+      width: 18px;
+      height: 18px;
+  }
+  .btn-text {
+      float: right;
+      margin: 11px 30px 0 0;
+      color: white;
+      font-size: 14px;
+      letter-spacing: 0.2px;
+  }
+
 .facebook-btn {
   cursor: pointer;
   margin-top: 50px;
@@ -276,8 +293,7 @@ ul{
       background-color: white;
   }
 
-  .fa-facebook-square {
-      color: rgb(45, 45, 131);
+  .facebook-icon {
       position: absolute;
       margin-top: 11px;
       margin-left: 11px;
@@ -357,40 +373,6 @@ ul{
 }
 
 
-/*sidebar*/
-
-.sidebar{
-  background-color: #071b34;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 450px;
-    height: 100vh;
-}
-
-.sidebar-navbar{
-  display: flex;
-  justify-content: space-between; 
-}
-
-
-.nothing_main-content{
-  align-items: center;
-    background-color: #cfc8c8!important;
-    color: whitesmoke;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    height: 100vh;
-
-   
-}
-
-.user_main-content{
-  display: flex;
-}
 
 main{
   width: -webkit-fill-available;
@@ -432,4 +414,11 @@ main{
 .card-body-co{
   width: 1000px;
   height: 100px;
+}
+
+.session{
+  font-weight: bolder;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7B113A;
 }
